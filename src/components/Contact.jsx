@@ -18,13 +18,13 @@ const Newsletter = () => {
               type='email'
               placeholder='Enter Email'
             />
-            <button className='bg-[#f8412d] text-white rounded-md font-medium w-[200px] ml-4 my-6 px-6 py-3'>
+            <button className='bg-[#ff8f33] text-white rounded-md font-medium w-[200px] ml-4 my-6 px-6 py-3'>
               Connect
             </button>
           </div>
           <p>
             Read our{' '}
-            <span className='text-[#f8412d]'>Privacy Policy.</span>
+            <span className='text-[#ff8f33]'>Privacy Policy.</span>
           </p>
         </div>
       </div>

@@ -2,14 +2,13 @@ import styled from 'styled-components'
 import {Link as LinkR} from 'react-router-dom'
 
 export const Nav = styled.nav`
-    background: #ffffff;
     height: 70px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     font-size: 1rem;
     position: sticky;
-    top: 0;
+    top: 30px;
     z-index: 10;
 
     @media screen and (max-width:960px) {
@@ -27,13 +26,10 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR) `
-    color: #f8412d;
     justify-self: flex-start;
     cursor: pointer;
-    font-size: 1.5rem;
     display: flex;
-    align-items: center;
+    align-items: left;
     margin-left: 24px;
-    font-weight: bold;
-    text-decoration: none;
+    height:140px;
 `;

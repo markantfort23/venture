@@ -25,7 +25,7 @@ const Hero = () => {
           />
         </div>
         <p className='md:text-2xl text-xl font-bold text-gray-500'></p>
-        <button className='bg-[#f8412d] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white'>Get Started</button>
+        <button className='bg-[#ff8f33] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white'>Get Started</button>
       </div>
     </div>
   );
