@@ -1,10 +1,14 @@
 import React from 'react';
 import long from '../assets/long.png';
-import {useRef} from 'react';
-
+import { useRef } from 'react';
 
 const Newsletter = () => {
   const ref = useRef(null);
+
+  const handleClick = () => {
+    window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdOgIgzoOpGheSTNlu-tXnm88_zxkWAo4vpyWZrKA1lPZHZvQ/viewform?usp=sharing';
+  }
+
   return (
     <div ref={ref} className='w-full py-16 text-black px-4 bg-[#f5f5f5]'>
       <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3'>
@@ -16,13 +20,7 @@ const Newsletter = () => {
         </div>
         <div className='my-4'>
           <div className='flex flex-col sm:flex-row items-center justify-between w-full'>
-{/*             <input
-              className='p-3 flex w-full rounded-md text-white'
-              type='email'
-              placeholder='Enter Email'
-            /> */}
-            <button className='bg-[#5b4fd9] text-white rounded-md font-medium w-[400px] ml-4 my-6 px-6 py-3' 
-            onclick="window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdOgIgzoOpGheSTNlu-tXnm88_zxkWAo4vpyWZrKA1lPZHZvQ/viewform?usp=sharing';">
+            <button className='bg-[#5b4fd9] text-white rounded-md font-medium w-[400px] ml-4 my-6 px-6 py-3' onClick={handleClick}>
               Connect
             </button>
           </div>
