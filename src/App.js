@@ -5,6 +5,7 @@ import Cards from './components/Cards';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
+import Emailform from './components/emailform';
 import {BrowserRouter as Router} from 'react-router-dom'
 import Contact from './components/Contact';
 
@@ -20,6 +21,7 @@ function App() {
       <Pitch />
       <Cards />
       <Contact />
+      <Emailform />
       <Footer />
     </div>
   );
