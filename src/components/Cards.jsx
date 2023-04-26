@@ -9,7 +9,7 @@ const Cards = () => {
           <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
               <img className='w-20 mx-auto mt-[-3rem] bg-white' src={Single} alt="/" />
               <h2 className='text-2xl font-bold text-center py-8 text-[#5b4fd9]'>Traditional Criteria</h2>
-              <p className='text-center text-4xl font-bold'>Banks put in place many hurdles to accessing the funds you need to grow your business</p>
+              <p className='text-center text-4xl font-bold'>Banks make it difficult for new food service entrepreneurs to obtain working capital</p>
               <div className='text-center font-medium'>
                   <p className='py-2 border-b mx-8 mt-8'>Months of financial history</p>
                   <p className='py-2 border-b mx-8'>FICO credit scores</p>
@@ -21,7 +21,7 @@ const Cards = () => {
           <div className='w-full shadow-xl flex flex-col p-4 m  y-4 rounded-lg hover:scale-105 duration-300'>
               <img className='w-20 mx-auto mt-[-3rem] bg-white' src={Logo} alt="/" />
               <h2 className='text-2xl font-bold text-center py-8 text-[#ff8f33]'>Holistic Criteria</h2>
-              <p className='text-center text-4xl font-bold'>Kitchen Kapital uses innovate alternative proxies to assess your credit worthiness</p>
+              <p className='text-center text-4xl font-bold'>We use a holistic assessment that accounts for your potential to grow and easily repay our loan</p>
               <div className='text-center font-medium'>
                   <p className='py-2 border-b mx-8 mt-8'>Social engagement</p>
                   <p className='py-2 border-b mx-8'>Google Map data</p>
