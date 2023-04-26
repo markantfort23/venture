@@ -11,10 +11,10 @@ const Analytics = () => {
           <h1 className='text-black md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Food Service Owners often struggle to obtain working capital.</h1>
           <br />
           <p className='text-black'>
-          If you are a food service entrepreneur you are probably cash constrained, relying on a small amount of working capital from friends and family.           </p>
+          If you are a food service entrepreneur you are probably cash constrained, relying on a small amount of working capital from friends and family.</p>
           <br />
           <p className='text-black'>
-          If you want to grow, you will need a boost! We can help you access further capital to hire employees, rent facilities, buy ingredients, and deal with unexpected events.          </p>
+          If you want to grow, you will need a boost! We can help you access further capital to hire employees, rent facilities, buy ingredients, and deal with unexpected events.</p>
           <br />
         </div>
       </div>
